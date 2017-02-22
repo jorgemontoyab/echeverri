@@ -1,0 +1,226 @@
+/* Estilos globales */
+body {
+	background: rgba(138, 109, 59, 0.86) url(../img/fondo.png) repeat fixed;
+	font-family: 'Source Sans Pro', serif;
+	font-size: 1.6em;
+	line-height: 1.6em; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Sansita', sans-serif;
+}
+
+/* Contenedor global */
+
+.global {
+	background-color: rgba(240, 255, 240, 0.86);
+}
+
+.global > * {
+	margin: auto;
+}
+
+/* Contenedor intermedio*/
+
+.container-1 {
+	background-color: beige;
+	background-color: rgba(245, 245, 220, 0.75);
+}
+
+/* Contenedor interno */
+
+.interno {
+	width: 75%;
+	margin: auto;
+	background-color: white;
+	padding: 2% 0;
+	padding-bottom: 0;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+@media (max-width: 767px) {
+	.interno {
+		width: 95%;
+	}
+}
+
+/* Banner */
+
+.banner {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+.banner img 
+{
+	display: block;
+}
+
+.banner-movil {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+}
+
+.banner-movil img 
+{
+	display: block;
+}
+
+/* Barra de navegación */
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  margin: 0 -15% 0 -15%;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.collapse li {
+	font-family: 'Montserrat', sans-serif;
+	background-color: beige;
+	/*padding-top: 0;
+	padding-bottom: 0;*/ 
+}
+
+.navbar-default {
+    background-color: white;
+    border-style: none;
+    font-size: 0.9em;
+}
+
+/* link */
+
+.navbar-default .navbar-nav > li > a {
+    color: #078930;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
+    background-color: #078930;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #078930;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: white;
+    background-color: #078930;
+}
+
+.dropdown-menu > li > a {
+	color: #078930;
+    background-color: beige;
+    font-size: 1.1em
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: white;
+    background-color: #078930;
+}
+
+
+ul.dropdown-menu {
+	padding-bottom: 0;
+	padding-top: 0;	
+}
+
+
+/* separación entre filas */
+
+.row {
+	padding: 3% 0;
+}
+
+.contenido {
+	padding: 0 2%;
+}
+
+/* Llamado a la acción */
+
+#accion {
+	margin-bottom: 10%;
+	background-color: #FF6709;
+	border-color: #FF6709;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #000;
+	color: white;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 4%;
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.footer ul a {
+	text-decoration: none;
+	color: #FFF183;
+}
+
+div.granito {
+	position: relative;
+	top: 0;
+}
+
+.granito {
+	float: right;
+}
+
+.granito img {
+	display: inline-block;
+	width: 15px;
+}
+
+address {
+	padding-top: 75%
+}
+
+/* Imágenes fincas */
+
+.imgfinca {
+	width: 100%;
+}
+
+/* Imágenes galería */
+
+img.galeria {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom:20px;
+}
+
+img.galeria:hover {
+  filter: none; /* IE6-9 */
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+ 
+}
