@@ -50,7 +50,7 @@ $result='<div class="alert alert-danger">Hubo un error enviando su mensaje. Int√
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>El Caf√© - Familia Echeverri</title>
+        <title>Contacto - Familia Echeverri</title>
         <!-- Bootstrap -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <script src="https://use.fontawesome.com/8c3aeef5e2.js"></script>
