@@ -174,7 +174,7 @@ $result='<div class="alert alert-danger">Hubo un error enviando su mensaje. Int�
                                 <li><a href="https://federaciondecafeteros.org/static/files/Medidas_Cafeteras_Diarias.pdf" target="_blank">Medidas Cafeteras Diarias</a></li>
                                 <li><a href="http://www.cafedecolombia.com/familia" target="_blank">Café de Colombia</a></li>
                                 <li><a href="http://www.cenicafe.org/" target="_blank">Cenicafé</a></li>
-                                <li><a href="http://www.eljardin-antioquia.gov.co/index.shtmlhttp://www.andes-antioquia.gov.co/index.shtml#3" target="_blank">Municipio de Andes</a></li>
+                                <li><a href="http://www.andes-antioquia.gov.co/index.shtml#3" target="_blank">Municipio de Andes</a></li>
                                 <li><a href="http://www.eljardin-antioquia.gov.co/index.shtml" target="_blank">Municipio de Jardín</a></li>
                             </ul>
                         </div>
