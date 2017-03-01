@@ -227,5 +227,5 @@ img.galeria:hover {
 
 /* Imagen del mapa */
 .plano {
-	min-width: 100%;
+	width: 100%;
 }
