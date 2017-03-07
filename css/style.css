@@ -144,6 +144,11 @@ ul.dropdown-menu {
 	padding-top: 0;	
 }
 
+@media (max-width: 767px)
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #078930;
+}
+
 
 /* separación entre filas */
 
