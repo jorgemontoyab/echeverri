@@ -182,12 +182,11 @@ $result='<div class="alert alert-danger">Hubo un error enviando su mensaje. Int�
                         <div class="col-xs-6">
                             <div class="granito">
                                 <address>
-                                    <img src="img/grano_cafe.svg" alt="Grano de café con los colores de Colombia"> Familia Echeverri <br>
-                                    Calle XX # XX-XX <br>
-                                    Tel. xxxxxxxx <br>
-                                    correo@correo.com <br>
-                                    Andes - Antioquia <br>
-                                    Colombia
+                                    <img src="img/grano_cafe.svg" alt="Grano de café con los colores de Colombia"> Juan Guillermo Echeverri Puerta<br>
+                                Carrera 50 # 51-04 <br>
+                                jgep8211@hotmail.com <br>
+                                Andes - Antioquia <br>
+                                Colombia
                                 </address>
                             </div>
                         </div>
